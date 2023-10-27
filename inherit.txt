@@ -1,2 +1,8 @@
-1.
-2.
+Write two uses for why you would use inheritance in a program?
+
+1. Inheritance is useful in a program because it allows one to create a subclass 
+from an existing class. A program that requires new objects with similar 
+characteristics and behaviors could use inheritance to extend a class without 
+duplicating code. This allows for simpler modification and maintenance.
+2. Inheritance is also useful for heirarchial relationships which is beneficial 
+for ogranization of complex systems.
