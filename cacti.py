@@ -1,5 +1,5 @@
 def cacti_number(func):
-	def wrapper(grid):
+	def array(grid):
 		total_rows = len(grid)
 		total_cols = len(grid[0])
 		cacti_count = 0
@@ -17,4 +17,4 @@ def cacti_number(func):
 					if is_adjacent_empty:
 						cacti_count +=1
 		return cacti_count
-	return wrapper
+	return array
