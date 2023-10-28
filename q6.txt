@@ -2,6 +2,6 @@
 function call because "a" is immutable. Changes made to "a" within the 
 function aren't affecting the original "a" outside of the function.
 
-2. The change inside increment_int_b does change the variable b after the 
-function is called because b is a dictionary and thus mutable. Changes made to 
+2. The change inside increment_int_b does change the variable "b" after the 
+function is called because "b" is a dictionary and thus mutable. Changes made to 
 "b" within the function do affect the original "b".
