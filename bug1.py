@@ -29,7 +29,7 @@ def draw_circle(mycircle):
     print(mycircle.draw())
 
 def shape(myshape):
-    print(myshape.shape())
+    print(myshape.draw())
 
 def main():
     c = Circle(1, 2, 3)
