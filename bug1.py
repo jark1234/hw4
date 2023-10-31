@@ -25,7 +25,7 @@ This is a circle
                """
 def main():
 	c = Circle(1,2,3)
-	print(c.shape(Circle))
+	print(c.shape())
 	print(c.draw())
 main()
 
