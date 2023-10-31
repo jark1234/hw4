@@ -25,11 +25,28 @@ class Circle(Base):
        ' - , _ _ _ ,  '
                """
 
+    def shape(self):
+        return f"""
+({self.x}, {self.y})
+{self.size}
+         , - ~ ~ ~ - ,  
+     , '               ' ,
+   ,                       ,
+  ,                         ,
+ ,                           ,                      
+ ,                           ,
+ ,                           ,
+  ,                         ,
+   ,                       ,
+     ,                  , '
+       ' - , _ _ _ ,  '
+               """ 
+
 def draw_circle(mycircle):
     print(mycircle.draw())
 
 def shape(myshape):
-    print("This is a circle")
+    print(myshape.shape())
 
 def main():
     c = Circle(1, 2, 3)
@@ -38,4 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
