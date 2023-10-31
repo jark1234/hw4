@@ -26,7 +26,21 @@ class Circle(Base):
                """
 
     def shape(self):
-        return f"({self.x}, {self.y})\n{self.size}"
+        return f"""
+({self.x}, {self.y})
+{self.size}
+        , - ~ ~ ~ - ,  
+     , '               ' ,
+   ,                       ,
+  ,                         ,
+ ,                           ,                      
+ ,                           ,
+ ,                           ,
+  ,                         ,
+   ,                       ,
+     ,                  , '
+       ' - , _ _ _ ,  '
+               """ 
 
 def draw_circle(mycircle):
     print(mycircle.draw())
