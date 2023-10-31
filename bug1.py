@@ -33,7 +33,7 @@ def shape():
 
 def main():
     c = Circle(1, 2, 3)
-    print(shape())
+    print(c.shape())
     draw_circle(c)
 
 if __name__ == "__main__":
