@@ -28,12 +28,12 @@ class Circle(Base):
 def draw_circle(mycircle):
     print(mycircle.draw())
 
-def shape():
-    return ""
+def shape(myshape):
+    print(myshape.shape())
 
 def main():
     c = Circle(1, 2, 3)
-    print(c.shape())
+    shape(c)
     draw_circle(c)
 
 if __name__ == "__main__":
