@@ -3,8 +3,6 @@ class Base:
         self.x = x
         self.y = y
         self.size = size
-    def draw(self):
-	return ""
 class Circle(Base):
     def __init__(self, x, y, size):
         super().__init__(x, y, size)
