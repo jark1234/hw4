@@ -28,7 +28,7 @@ def shape():
 	return ""
 def main():
 	c = Circle(1,2,3)
-	print)c.shape())
+	print(c.shape())
 	draw_circle(c)
 main()
 
