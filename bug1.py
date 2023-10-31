@@ -8,6 +8,8 @@ class Circle(Base):
         super().__init__(x, y, size)
     def draw(self):
         return f"""
+    def shape(self):
+        return f"""
 ({self.x}, {self.y})
 {self.size}
          , - ~ ~ ~ - ,
@@ -22,10 +24,10 @@ class Circle(Base):
      ,                  , '
        ' - , _ _ _ ,  '
                """
-def draw_circle(mycircle):
-	print(mycircle.draw())
+	
 def main():
 	c = Circle(1,2,3)
-	draw_circle(c)
+	print(c.shape())
+	print(c.draw())
 main()
 
