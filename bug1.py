@@ -9,9 +9,7 @@ class Circle(Base):
     def draw(self):
         return f"""
     def shape(self):
-	return f"""	
-({self.x}, {self.y})
-{self.size}
+        return f"({self.x}, {self.y})\n{self.size}"
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,
