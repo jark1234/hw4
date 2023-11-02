@@ -25,22 +25,9 @@ class Circle(Base):
        ' - , _ _ _ ,  '
                """
 
-    def shape(self):
-        return f"""
-({self.x}, {self.y})
-{self.size}
-         , - ~ ~ ~ - ,  
-     , '               ' ,
-   ,                       ,
-  ,                         ,
- ,                           ,                      
- ,                           ,
- ,                           ,
-  ,                         ,
-   ,                       ,
-     ,                  , '
-       ' - , _ _ _ ,  '
-               """ 
+    def shape(name):
+	name = "This is a circle"
+	return name
 
 def draw_circle(mycircle):
     print(mycircle.draw())
